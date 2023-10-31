@@ -1,0 +1,209 @@
+body {
+    background: rgb(0, 0, 0);
+    background: radial-gradient(circle, rgb(78, 78, 78) 8%, rgb(148, 145, 145) 27%, rgb(70, 69, 69) 63%, rgb(32, 32, 32) 85%);
+}
+
+header {
+    background: rgb(4, 180, 57);
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.container-image {
+    text-align: center;
+    margin-bottom: 20px;
+    width: 20pxs;
+}
+
+
+nav {
+    height: 70px;
+    background-color: #c50303;
+    display: flex;
+    margin-bottom: 100px;
+}
+
+nav ul {
+    padding: 0;
+    list-style-type: none;
+    flex: 2;
+    display: flex;
+}
+
+nav li {
+    display: inline;
+    text-align: center;
+    flex: 1;
+    color: #fcfcfc;
+}
+
+
+.container-titulo {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+}
+
+h2 {
+    text-align: center;
+    color: aliceblue;
+}
+
+table {
+
+    background: rgb(4, 180, 57);
+    border: 2px solid white;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    color: white;
+
+
+}
+
+.imagen {
+    width: 70px;
+}
+
+td,
+th {
+
+    border-bottom: 2px solid white;
+    font-weight: 900;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+p {
+    text-align: center;
+    color: white;
+}
+
+tr {
+    font-size: 1.1em;
+}
+
+
+
+.contenido-tabla {
+    text-align: center;
+
+}
+
+th {
+    text-align: center;
+}
+
+#body {
+    background: white;
+}
+
+#header {
+    background: black;
+}
+
+
+
+
+#td,
+th {
+
+    border-bottom: 2px solid white;
+    font-weight: 900;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+#tabla {
+    background: rgb(221, 220, 220);
+}
+
+#td {
+    color: rgb(87, 85, 85);
+}
+
+.estadisticas {
+    background: rgb(41, 40, 40);
+}
+
+#header2 {
+    background: rgb(0, 0, 0);
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.imagen2 {
+    width: 200px;
+    height: 185px;
+}
+
+
+footer {
+    width: 100%;
+    margin: 0 auto;
+    color: #333;
+    background-color: #1c1c1c;
+    padding: 20px 1% 5px 1%;
+    position: relative;
+    margin-top: 60px;
+}
+
+
+.footerWrapper {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.footerWrapper {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-wrap: wrap;
+    position: relative
+}
+
+
+.sectorLista {
+    height: auto !important;
+}
+
+.redes {
+    color: #fcfcfc;
+}
+
+.sectorBanner {
+    position: relative;
+    overflow-x: hidden;
+}
+
+.logo-redes{
+    display: flex;
+    justify-content: center;
+}
+
+.creditos-programador{
+    color: #000;
+    padding: 1px;
+    text-align: center;
+   
+}
